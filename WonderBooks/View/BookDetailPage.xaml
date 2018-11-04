@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="WonderBooks.View.BookDetailPage">
+  <!-- <TableView Intent="Data">
+        <TableView.Root>
+            <TableSection>
+                <TextCell Text="{Binding Name}"/>
+                <TextCell Text="{Binding Author}"/>
+                <TextCell Text="{Binding Price}"/>
+                
+            </TableSection>
+        </TableView.Root>
+    </TableView>-->
+    <StackLayout>
+        <Label Text="{Binding Name}"/>
+        <Label Text="{Binding Author}"/>
+        <Label Text="{Binding Price}"/>
+        </StackLayout>
+        
+   
+</ContentPage>
